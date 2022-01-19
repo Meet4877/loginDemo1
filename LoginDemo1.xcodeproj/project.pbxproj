@@ -16,6 +16,10 @@
 		C33EB7372797DF5000641B73 /* LoginDemo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB7362797DF5000641B73 /* LoginDemo1Tests.swift */; };
 		C33EB7412797DF5000641B73 /* LoginDemo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB7402797DF5000641B73 /* LoginDemo1UITests.swift */; };
 		C33EB7432797DF5000641B73 /* LoginDemo1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB7422797DF5000641B73 /* LoginDemo1UITestsLaunchTests.swift */; };
+		C33EB7502797FA3500641B73 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB74F2797FA3500641B73 /* SignUPViewController.swift */; };
+		C33EB75227980F9400641B73 /* alluserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB75127980F9400641B73 /* alluserViewController.swift */; };
+		C33EB7542798169200641B73 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB7532798169200641B73 /* extension.swift */; };
+		C33EB7562798243600641B73 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33EB7552798243600641B73 /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C33EB73C2797DF5000641B73 /* LoginDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33EB7402797DF5000641B73 /* LoginDemo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemo1UITests.swift; sourceTree = "<group>"; };
 		C33EB7422797DF5000641B73 /* LoginDemo1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemo1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C33EB74F2797FA3500641B73 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		C33EB75127980F9400641B73 /* alluserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alluserViewController.swift; sourceTree = "<group>"; };
+		C33EB7532798169200641B73 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		C33EB7552798243600641B73 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				C33EB71F2797DF4F00641B73 /* AppDelegate.swift */,
 				C33EB7212797DF4F00641B73 /* SceneDelegate.swift */,
+				C33EB75127980F9400641B73 /* alluserViewController.swift */,
 				C33EB7232797DF4F00641B73 /* ViewController.swift */,
+				C33EB74F2797FA3500641B73 /* SignUPViewController.swift */,
+				C33EB7532798169200641B73 /* extension.swift */,
 				C33EB7252797DF4F00641B73 /* Main.storyboard */,
 				C33EB7282797DF5000641B73 /* Assets.xcassets */,
 				C33EB72A2797DF5000641B73 /* LaunchScreen.storyboard */,
 				C33EB72D2797DF5000641B73 /* Info.plist */,
+				C33EB7552798243600641B73 /* TableCell.swift */,
 			);
 			path = LoginDemo1;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C33EB7242797DF4F00641B73 /* ViewController.swift in Sources */,
+				C33EB7542798169200641B73 /* extension.swift in Sources */,
 				C33EB7202797DF4F00641B73 /* AppDelegate.swift in Sources */,
+				C33EB7562798243600641B73 /* TableCell.swift in Sources */,
+				C33EB7502797FA3500641B73 /* SignUPViewController.swift in Sources */,
+				C33EB75227980F9400641B73 /* alluserViewController.swift in Sources */,
 				C33EB7222797DF4F00641B73 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
